@@ -4,7 +4,7 @@
 
 
 //Condicionais e controle de fluxo 
-
+/*
 
 let notaA = "A";
     notaB = "B";
@@ -96,3 +96,24 @@ while(i < 10) {
 
     i/=35
 }
+*/
+
+
+
+const btn = document.querySelector('#btn')
+const lessonitens = document.querySelector('.lessonitens')
+btn.addEventListener('click', function(){ 
+   
+   
+    if(lessonitens.style.height = "61px") {lessonitens.style.height = "max-content";} else {
+        lessonitens.style.height = "61"
+    }
+   
+ }) 
+
+
+
+
+
+
+    
