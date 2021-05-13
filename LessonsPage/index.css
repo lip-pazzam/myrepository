@@ -273,41 +273,66 @@ video {
     
 }
 
-
-
-label {
-    margin-right: 15px;
-}
-.db__atp {
-    width: 38px;
-    height: 18px;
-    background-color: green;
-    border-radius: 50px;
-    outline: none;
-    box-shadow: none;
-    margin-left: 3px;
-    border: none;
-}
-
-.db__atp:focus {
-    width: 38px;
-    height: 18px;
-    background-color: white;
-    border-radius: 50px;
-    margin-left: 30px;
-  
+.db__lb {
+    display: flex;
 }
 
 
-.autoplay {
-    width: 72px;
-    height: 24px;
-    background-color: rgb(87, 255, 87);
-    border-radius: 50px;
+
+.toggle {
     display: flex;
     align-items: center;
+    position: relative;
     margin-right: 15px;
+}
 
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+ .slider {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: brown;
+    position:relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+   
+ }
+
+ .slider:before {
+     content: "";
+     width: 50px;
+     height: 30px;
+     border-radius: 15px;
+     background-color: cornsilk;
+     position: absolute;
+     transition: 0.4s;
+     margin-left: 6px;
+   
+ 
+
+ }
+
+ 
+
+ input:checked + .slider:before {
+     transform: translateX(38px);
+     background-color: blue;
+ }
+
+
+
+
+.onoff {
+   
+margin-right: 15px;
 }
 
 .expandir {
