@@ -1,6 +1,6 @@
 # Projeto Terramade (Em construção)
 
-Projeto idealizado para o ensino de técnicas de construção modernas e ecológicas para a população em geral.
+Projeto idealizado para o ensino de técnicas de construção modernas para a população em geral.
 
 ## Tópicos
 
@@ -20,13 +20,9 @@ Projeto idealizado para o ensino de técnicas de construção modernas e ecológ
 
 ## *Features*
 
-- [ ] Log in/Log out page:
-   - [ ] API;
-- [ ] Profile page:
-   - [ ] Profile page;
-- [ ] Dashboard page
-- [ ] Tracks page
-- [ ] Lessons page
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
 
 ## Tecnologias
 
@@ -42,13 +38,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Felipe Pazam
 
+## Utilitários
+
 Linkedin: 
 *E-mail*: felipe.coutinho.psl@gmail.com
 Site:
-
-## Utilitários
-
-
 
 ## Como contribuir para o projeto
 
