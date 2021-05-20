@@ -114,6 +114,11 @@ btn.addEventListener('click', function(){
 
 
 
+const mymodule = require('./jk')
+console.log(mymodule)
 
 
-    
+
+
+
+
