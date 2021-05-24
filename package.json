@@ -1,0 +1,22 @@
+{
+  "name": "projeto-terramade",
+  "version": "1.0.0",
+  "description": "Projeto idealizado para o ensino de técnicas de construção modernas para a população em geral.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe-pazam/Projeto-Terramade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe-pazam/Projeto-Terramade/issues"
+  },
+  "homepage": "https://github.com/felipe-pazam/Projeto-Terramade#readme",
+  "dependencies": {
+    "guia": "^1.0.0"
+  }
+}
