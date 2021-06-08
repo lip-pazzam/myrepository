@@ -9,7 +9,10 @@ Projeto idealizado para o ensino de técnicas de construção modernas para a po
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
+   * [Início do projeto](#tecnologias)
+   * [Visão do geral](#tecnologias)
+   * [Acesso e instalação](#instalação)
+   * [Como contribuir](#tecnologias)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
@@ -20,11 +23,11 @@ Projeto idealizado para o ensino de técnicas de construção modernas para a po
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-## *Features*
+## Início do projeto 
 
-- [ ] Cadastro de usuário
-- [ ] Página de perfil
-- [ ] Página de Lições
+Março de 2021, Rio de Janeiro, RJ - Brasil.
+
+## Visao geral
 
 ## Tecnologias
 
@@ -35,6 +38,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+## Dependências
+
+- [Express]()
+
+## Acesso e instalação
+
+## Como contribuir 
+
+Para conhecer melhor o projeto e contribuir da melhor maneira, acesse o arquivo [CONTRIBUTING] ().
 
 ## Autor
 
@@ -48,16 +61,6 @@ Linkedin:
 
 Site:
 
-## Como contribuir para o projeto
-
-&rarr; Faça um *fork* do projeto;
-
-&rarr; Crie uma nova *branch* com as suas alterações: git checkout -b my-contributions;
-
-&rarr; Para novas funcionalidades crie uma mensagem de *commit* contando o que você fez: git commit -m "New feature: ..."; ou "Adjust: ..." para ajustes.
-
-&rarr; Caso tenha alguma dúvida confira este guia de como contribuir no GitHub.
-
 ## Licença
-Este projeto esta sob a licença MIT.
+Este projeto esta sob a licença MIT. Veja o arquivo [LICENSE](.github/license.txt) para mais detalhes.
 
