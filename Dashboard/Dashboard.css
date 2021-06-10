@@ -427,8 +427,9 @@ main {
   
     background-image: url(https://laurasantos.com.br/wp-content/themes/laura/images/logo-ls.png);
    
-    display: flex;
-  align-items: flex-end;
+  
+    
+ 
 
 }
 
@@ -470,6 +471,8 @@ main {
      height: auto;
      font-size: 1.6rem;
      margin: 10px auto;
+     font-weight: 400;
+     color: rgb(117, 117, 117);
 
     
 }
@@ -478,28 +481,47 @@ main {
 
 .style-description p {
     display: none; 
-    justify-self: center;
+   
+
+}
+
+.style-description button {
+    display: none; 
+   
 
 }
 
 .style-description:hover {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+
     background-color: white;
     transition: cubic-bezier();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 
 }
 
 .style-description:hover p{
- display: block;
+    display: block;
+ 
 
 }
 
+.style-description:hover button{
+    display: block;
+   
+   }
+
 a {
-    margin: 30px 30px;
+    
     font-size: 3.0rem;
-    color: white;
+    color: gray;
+    font-weight: 700;
+   
 }
 
 button {
@@ -510,6 +532,7 @@ button {
     border-radius: 0px;  
     font-family: 'Roboto', sans-serif;
     font-size: 2.0rem;
+  
 }
 
 
