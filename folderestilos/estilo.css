@@ -27,16 +27,18 @@ header {
 
 .content {
     display: flex;
+    justify-content: center;
 }
 
 .main-l {
-    width: 350px;
+    width: 10%;
     height: 100vw;
     background-color: white;
+
 }
 
 main {
-    width: 100%;
+    width: 70%;
     height: 300px;
     background-color: white;
     font-size: 1.4rem;
@@ -104,6 +106,11 @@ main {
     margin-right: 30px;
 }
 
+.div-style {
+   display: flex;
+   flex-direction: column;
+}
+
 button {
     width: 200px;
     height: 40px;
@@ -120,35 +127,118 @@ button {
 .bar {
     width: 100%;
     height: 40px;
-    justify-content: center;
-    margin-top: 20px;
+    display: flex;
+ 
+    align-items: center;
+    margin-top: 50px;
+    /*background-color: rgb(247, 244, 244);*/
 }
 
-a {
-    margin-left: 50px;
+.guideone {
+    
     text-decoration: none;
     color: grey;
     font-size: 1.4rem;
+    padding: 10px 30px;
+    border-bottom: 2px solid grey;
+    /*background-color: rgb(247, 244, 244);*/
+   
+  
 }
+
+.guide {
+    
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    
+    /*background-color: rgb(247, 244, 244);*/
+   
+  
+}
+
+.guide:hover {
+    border-bottom: 2px solid blue;
+
+   
+  
+}
+
+.guide:target{background-color:white;}
 
 
 .div-previews {
     width: 100%;
-    height: 170px;
+    height: auto;
     display: flex;
     
-    background-color: whitesmoke;
+    background-color: rgb(255, 44, 44);
+}
+
+.previews {
+    padding: 20px;
+    color: white;
+    /*color: #4d5156;*/
+}
+
+
+.previews p {
+    width: 100%;
+    font-size: 1.5rem;
+    
+    letter-spacing:0.5px;
+    line-height: 150%;
 }
 
 img {
     width: 250px;
-    height: 150px;
+    height: 170px;
 }
 
 .section-description {
-    width: 750px;
+    width: 100%;
     font-size: 1.6rem;
     color: #4d5156;
     letter-spacing:0.5px;
     line-height: 150%;
+}
+
+.unidade-style-main {
+    width: 100px;
+    height: 80px;
+}
+
+@media (max-width:550px) {
+    
+    .div-previews {
+        display: block;
+    }
+
+    .div-previews > img {
+        width: 100%;
+    }
+    
+    .main-l {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+        width: 90%;
+    }
+
+    
+.previews {
+    padding: 10px;
+}
+
+.bar {
+     justify-content: space-around;
+    align-items: center;
+}
+
+.guide {padding: 10px 10px;}
+
+
 }
