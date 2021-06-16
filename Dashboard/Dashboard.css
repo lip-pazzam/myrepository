@@ -550,9 +550,9 @@ footer {
     height: max-content;
     background-color: black;
     color: rgb(199, 199, 199);
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
 }
 
 footer > section {
@@ -561,6 +561,72 @@ footer > section {
    
 }
 
+
+.app {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+ 
+    align-items: center;
+}
+
+
+.android {
+    display: flex;
+    font-size: 1.2rem;
+    width: 300px;
+    justify-content: space-around;
+ 
+}
+
+.text-androide {
+    display: flex;
+    width: 200px;
+}
+
+.text-google-store {
+    width: 50%;
+}
+
+.newslatter {
+    display: flex;
+}
+.newslatter-svg {
+   width: 60px;
+   height: 55px;
+   background-color: #92050e;
+   border-radius: 7px 0 0 7px;
+}
+
+.newslatter-button {
+    width: 300px;
+   height: 55px;
+   background-color: #b30510;
+   border-radius: 0 7px 7px 0;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   
+
+}
+.newslatter-button > a {
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 10px;
+    /*speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: */
+
+}
 
 
 

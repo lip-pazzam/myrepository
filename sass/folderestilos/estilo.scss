@@ -1,0 +1,42 @@
+/*No SCSS a string não recebe aspas*/
+$text-color: white;
+
+@mixin box-shadow($color) {
+    box-shadow: 7px 7x 3px 3px $color;
+}
+
+.lessons {
+    color:white;
+
+    p {
+     width: 50px;
+     height: 50px;
+     @include box-shadow(rgba(0,0,0,1));
+    }
+}
+
+@mixin text-effect ($val) {
+    @if $val == danger {
+      color: red;
+    } @else if $val == alert {
+        color: yellow;
+    } @else {
+        color: black;
+    }
+}
+/*{text-1, text-2, text-3, text-4, test-5}*/
+
+@for $i from 1 through 5{
+    .text-#{$i} {
+        font-size: 15px * $i;
+    }
+}
+
+/*escrever array ou objeto no sass*/
+$colors: (color1: blue, color2: yelow,);
+$colors-a: (color1, color2)
+
+@each $key, $color in $colors {
+    .#{$color}-text {color: $color;}
+    
+}
