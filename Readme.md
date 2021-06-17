@@ -7,11 +7,12 @@ Habitações irregulares causam bilhões em prejuízos, geram problemas urbanís
 Adote o projeto e comece a contribuir hoje mesmo. 
 
 <p aling="center">
-crie um diretório local 
+  
+1. Crie um diretório local 
 
-Roda o comando git <code>clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
+2. Roda o comando git <code>clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
 
-Não se esqueça de fazer o PR de suas contribuições
+3. Não se esqueça de fazer o PR de suas contribuições
 
 
 ## Tabela de Conteúdo
@@ -23,7 +24,7 @@ Não se esqueça de fazer o PR de suas contribuições
    * [Tecnologias](#tecnologias)
    * [Acesso e instalação](#acesso-e-instalacao)
    * [Como usar](#como-usar)
-   * [Como contribuir](#como-contribuir)
+   * [Como você pode contribuir](#como-voce-pode-contribuir)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
@@ -31,7 +32,6 @@ Não se esqueça de fazer o PR de suas contribuições
       * [Combo](#combo)
    * [Como rodar os testes](#como-rodar-os-testes)
    * [Autor](#autor)
-   * [Contato](#contato)
    * [Licença](#licenca)
 
 <!--
@@ -76,6 +76,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Como usar
 
 ## Como você pode contribuir
+  
+## Cono rodar os testes
 
 Para conhecer melhor o projeto e contribuir da melhor maneira, acesse o arquivo <a href="">CONTRIBUTING</a>.
 
