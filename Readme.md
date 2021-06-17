@@ -69,6 +69,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+  
+## Dependências
+  
+  - Guia
+  
+--> Roda o comando `npm i`
 
 
 ## Acesso e instalação
@@ -76,11 +82,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Como usar
 
 ## Como você pode contribuir
-  
-## Cono rodar os testes
 
 Para conhecer melhor o projeto e contribuir da melhor maneira, acesse o arquivo <a href="">CONTRIBUTING</a>.
 
+## Cono rodar os testes
+  
 ## Autor
 
 Felipe Pazam
