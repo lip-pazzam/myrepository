@@ -10,7 +10,7 @@ Adote o projeto e comece a contribuir hoje mesmo.
   
 1. Crie um diretório local 
 
-2. Roda o comando git <code>clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
+2. Roda o comando <code>git clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
 
 3. Não se esqueça de fazer o PR de suas contribuições
 
