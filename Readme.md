@@ -2,9 +2,16 @@
 
 ## Sobre
 
-Projeto idealizado para o ensino de técnicas de construção modernas para a população em geral.
+Habitações irregulares causam bilhões em prejuízos, geram problemas urbanísticos e sociais gravíssimos. <a href="">SOLUTION<a>.
 
-> Roda o comando, adote o projeto e comece a contribuir hoje mesmo.
+Adote o projeto e comece a contribuir hoje mesmo. 
+
+<p aling="center">
+crie um diretório local 
+
+Roda o comando git <code>clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
+
+Não se esqueça de fazer o PR de suas contribuições
 
 
 ## Tabela de Conteúdo
@@ -68,15 +75,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Como usar
 
-## Como contribuir 
+## Como você pode contribuir
 
 Para conhecer melhor o projeto e contribuir da melhor maneira, acesse o arquivo <a href="">CONTRIBUTING</a>.
 
 ## Autor
 
 Felipe Pazam
-
-## Contato
 
 Linkedin: 
 
