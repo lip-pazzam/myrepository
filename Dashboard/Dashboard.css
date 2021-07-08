@@ -9,11 +9,19 @@ body {
     margin:0;
     padding: 0;
     background-color: white;
-    /*background-color: rgb(245, 245, 245);*/
+
     font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+/*
+
+@media  {
+    body {
+        width: 1350px;
+    }
 }
 
+*/
 
 
 header {
@@ -37,26 +45,52 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
 }
-.sectionc {
+.ul-c {
     width: 100%;
     height: 68px;
-    border-top: 1px solid rgb(206, 206, 206);
+  
     display: flex;
     justify-content: center;
     align-items: center;
+   font-size: 1.8rem;
+   color: rgb(85, 85, 85);
+ padding: 0;
+ margin: 25px;
+    
 }
 
-.sectionc > ul{
-   font-size: 2.0rem;
-   color: rgb(177, 177, 177);
-   list-style: none;
-    display: flex;
+.li-c {
+    padding: 5px 8px;
+    border-bottom:  0px solid grey;
+    font-size: 1.6rem;
+    transition: border ;
+    color: grey;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
 }
-/*
+
+
+ 
+ .li-c:hover{
+ 
+    border-bottom:  2px solid grey;
+ 
+  
+  }
+
+
+
+
+
+
+
+
 ul {
     list-style: none;
-    display: flex;
+ 
     
 }
 
@@ -64,7 +98,7 @@ li {
     margin-right: 10px;
 }
 
-*/
+
 .notification {
     width: 46px;
     height: 46px;
@@ -419,63 +453,61 @@ main {
  
 }
 
-.fundacaoone {
-    width: 25%;
+.arq-styles {
+    width: 20%;
  
-    height: 25vw;
+    height: 20vw;
 
   
-    background-image: url(https://laurasantos.com.br/wp-content/themes/laura/images/logo-ls.png);
    
+    display: flex;
+align-items: flex-end;
+    overflow: hidden;
+position: relative;
+}
+
+.arq-styles--img {
+    width: auto;
+    height: 100%;
+    transition: transform 2s linear;
+    position: absolute;
   
-    
- 
 
 }
 
-.fundacaotwo {
-    width: 25%;
- 
-    height: 25vw;
-
-  
-    
-    background-color: rgb(15, 32, 32);
- 
+.arq-styles--img:hover {
+    transform: scale(110%);
 }
 
-.fundacaotree {
-    width: 25%;
- 
-    height: 25vw;
 
-  
-    
-    background-color: grey;
- 
-}
 
-.fundacaofour {
-    width: 25%;
- 
-    height: 25vw;
-
-  
-    
-    background-color: red;
- 
-}
 
 .style-description {
      width: 100%;
-     height: auto;
+     height: 70px;
      font-size: 1.6rem;
-     margin: 10px auto;
+    
      font-weight: 400;
      color: rgb(117, 117, 117);
+     z-index: 10;
+     display: flex;
+     justify-content: left;
+     align-items: center;
 
     
 }
+
+.arq-styles--a {
+   
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 2.2rem;
+}
+
+
+
+
+
 
 
 
@@ -492,21 +524,24 @@ main {
 }
 
 .style-description:hover {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 
     background-color: white;
-    transition: cubic-bezier();
+    transition: all 0.06s linear;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10%;
     margin: 0;
 
 }
 
 .style-description:hover p{
     display: block;
+    text-align: -moz-center;
+text-align: -webkit-center;
  
 
 }
@@ -524,42 +559,188 @@ a {
    
 }
 
-button {
-    width: 220px;
-    height: 40px;
+.button-explorar {
+    width: 200px;
+    height: 35px;
     color: white;
-    background-color: red;
+    background-color: rgb(255, 67, 34);
     border-radius: 0px;  
     font-family: 'Roboto', sans-serif;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
+    cursor: pointer;
   
 }
 
+.button-explorar::after {
+  content: '';
+  margin: 5px;
 
-
-
-section {
-    margin: 30px 30px;
-    font-family: "Arial";
-    font-size: 1.4rem;
-    color: rgb(199, 199, 199);
 }
 
-footer {
+
+
+
+
+
+
+.articles {
     width: 100%;
     height: max-content;
-    background-color: black;
-    color: rgb(199, 199, 199);
+  
+  
     /*display: flex;
     justify-content: space-between;
     align-items: center;*/
 }
 
-footer > section {
-    width: auto;
-    height: 300px;
+footer {
+    width: 100%;
+    height: max-content;
+  
+    color: black;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+
+
+
+.articles {
+    width: 100%;
+    height: auto;
+    display: block; 
+    justify-content: center;
+    
+  
    
 }
+
+.topic-articles {
+    display: flex;
+    justify-content: center;
+  justify-content: flex-end;
+    margin: 30px 20px 20px  20px;
+
+
+}
+.topics {
+   width: max-content;
+   height: 35px;
+   
+  
+   font-size: 1.6rem;
+  
+   
+   position: relative;
+   
+   margin: 0 10px;
+}
+
+
+ .topics::before{
+     position: absolute;
+    content: "";
+    margin: 19.5px 50%;
+    border-bottom:  3px solid grey;
+     width: 0%;
+  height: 100%;
+  transform: translate(-50%,-50%) ;
+   transition: 0.3s all ease;
+    overflow:hidden;
+  
+  }
+
+
+
+   .topics:hover::before{
+   
+  
+    width: 100%;
+   
+  }
+
+.articles .articles-ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.articles .articles-ul .articles-li {
+  width: 15%;
+  max-height: 65vh;
+  color: rgb(122, 122, 122);
+  border-radius: 8px;
+ 
+  box-shadow: 6px 6px 10px rgb(228, 228, 228), -6px -6px 10px rgb(228, 228, 228);
+  padding: 20px;
+  font-size: 1.6rem;
+  margin: 11px;
+  background-color:white;
+  transition: background-color;
+
+}
+
+.articles .articles-ul .articles-li:hover {
+    background-color:rgb(240, 240, 240);
+}
+
+
+
+
+.articles .articles-ul .articles-li h1 {
+    color: rgb(85, 85, 85);
+  }
+
+  .articles .articles-ul .articles-li p {
+  font-size: 1.6rem;
+  max-height: 7.6rem;
+  text-transform: none;
+  }
+
+.articles .articles-ul .articles-li .articles-more {
+    color: rgb(255, 67, 34);
+    cursor: pointer;
+    }
+
+.articles .articles-ul .articles-li .articles-more:hover {
+    color: blue;
+}
+
+.articles .articles-ul .articles-li .articles-li--span {
+    padding: 5px 8px;
+    border-radius: 3px;
+
+
+    font-size: 1.2rem;
+    }
+
+.juridico {
+    color:  rgb(33, 10, 49);
+    border: 1px solid rgb(33, 10, 49);
+}
+
+.financeiro{
+    color:  blue;
+    border: 1px solid blue;
+}
+
+.manutencao{
+    color:  rgb(241, 76, 0);
+    border: 1px solid rgb(241, 76, 0);
+}
+.servicos{
+    color:  rgb(18, 163, 25);
+    border: 1px solid rgb(18, 163, 25);
+}
+
+.banner-app {
+    width: 100%;
+    height: 75px;
+    background-color: whitesmoke;
+    margin: 20px 0;
+}
+
 
 
 .app {
@@ -602,7 +783,7 @@ footer > section {
 .newslatter-button {
     width: 300px;
    height: 55px;
-   background-color: #b30510;
+   background-color: rgb(255, 67, 34);
    border-radius: 0 7px 7px 0;
    display: flex;
    justify-content: left;
@@ -627,6 +808,52 @@ footer > section {
     -webkit-font-smoothing: */
 
 }
+s
+.downloads {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sitemap {
+    display:flex;
+    justify-content: center;
+}
+
+.contact-ul {
+list-style: none;
+
+}
+.contact-li{
+    width: max-content;
+    height: max-content;
+    color: rgb(82, 82, 82);
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px rgb(228, 228, 228), -6px -6px 10px rgb(228, 228, 228);
+    padding: 20px;
+    margin: 11px 0px;
+ 
+}
+
+.contact-a {
+    font-size: 1.6rem;
+    color: black;
+    margin: 0;
+    
+}
+
+.contact-a:hover {
+
+
+
+font-size: 2.2rem;
+color: blue;
+}
+
+
 
 
 
