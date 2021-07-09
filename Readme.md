@@ -7,12 +7,14 @@ Habitações irregulares causam bilhões em prejuízos, geram problemas urbanís
 Adote o projeto e comece a contribuir hoje mesmo. 
 
 <p aling="center">
-  
+
+1. Faça um _fork_ do projeto 
+
 1. Crie um diretório local 
 
 2. Roda o comando <code>git clone https://github.com/felipe-pazam/Projeto-Terramade</code></p>
 
-3. Não se esqueça de fazer o PR de suas contribuições
+3. Não se esqueça de fazer o _pr_ (_pull request_) de suas contribuições
 
 
 ## Tabela de Conteúdo
