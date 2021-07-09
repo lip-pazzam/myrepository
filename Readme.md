@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Habitações irregulares causam bilhões em prejuízos, geram problemas urbanísticos e sociais gravíssimos. <a href="">SOLUTION<a>.
+Habitações irregulares causam bilhões em prejuízos, geram problemas urbanísticos e sociais gravíssimos. <a href="https://github.com/felipe-pazam/Projeto-Terramade/blob/main/docs/solution.md">SOLUTION<a>.
 
 Adote o projeto e comece a contribuir hoje mesmo. 
 
