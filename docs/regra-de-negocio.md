@@ -1,24 +1,64 @@
-Regra de Negócio
+# Regra de Negócio
 
-Mapa das páginas
+## Mapa das páginas
 
-Dashboard
+### _Homepage_
+
+
+* Serviços 
+
+Mais de 5.000 projetos aprovados
+
+Mais R$ 68 milhões alocados em projetos financiados 
+
+3 379 reformas
+
+1 659 novos edifícios*
+
+6 565 imóveis regularizados
+
+* Profissionais
+
+Arquiteto
+
+Vendedor/comerciante de paíneis fotovoltáicos
+
+Vendedor/comerciante de madeira de Lei
+
+Vendedor/Esquadrias
+
+Vendedor/comerciante de insumos de paisagismo e jardinagem
+
+Vendedor/comerciante de sistemas e equipamentos _smarthouse_
+
+___
+
+
+* Concluídos com todos os acabamentos
+
+
+
+
+* _Dashboard_
+
    * Seu perfil
 
    * EStilos arquitetônicos
-       * Estilo Escandinavo
+      
+   Estilo Escandinavo
 
    * Consulta de viabilidade
-       * Contratar profissional
+   
+     Contratar profissional
 
    * Ajuda
-   * Settings
+   * _Configurações_
 
-O Dashboard da aplicação contém os recursos providos para administração do(s) projeto(s). Contém as seguintes seções:
+O _Dashboard_ da aplicação contém os recursos providos para administração do(s) projeto(s). Contém as seguintes seções:
 
 * Projetos. Alista os principais projetos abertos.
 * Serviços. Alista itens de serviços relacionados.
-* Alista gedjets das páginas dos principais estilos arquitetônicos.
+* Alista _gedjets_ das páginas dos principais estilos arquitetônicos.
 
 
 
