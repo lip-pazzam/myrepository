@@ -1,34 +1,5 @@
-@charset "UTF-8";
+
 /*No SCSS a string não recebe aspas*/
 .lessons {
   color: white;
 }
-
-.lessons p {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 7px 7x 3px 3px black;
-          box-shadow: 7px 7x 3px 3px black;
-}
-
-/*{text-1, text-2, text-3, text-4, test-5}*/
-.text-1 {
-  font-size: 15px;
-}
-
-.text-2 {
-  font-size: 30px;
-}
-
-.text-3 {
-  font-size: 45px;
-}
-
-.text-4 {
-  font-size: 60px;
-}
-
-.text-5 {
-  font-size: 75px;
-}
-/*# sourceMappingURL=estilo.css.map */

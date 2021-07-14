@@ -162,6 +162,7 @@ header {
 .section-one > img {
     width: 100%;
     height:fit-content;
+    object-fit: cover;
 }
 
 .section-one > h2 {
@@ -194,6 +195,7 @@ header {
 
 .section-two { 
     display: flex;
+    height: 400px;
 }
 
 .desc {
@@ -215,10 +217,87 @@ header {
     width: 100%;
     height: 500px;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-numbers {
+    width: 50%;
+    height: 100%;
+  padding: 0;
+margin: 0;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+}
+
+.ul-numbers {
+    width: 95%;
+    height: 95%;
+    padding: 5%;
+    margin: 0;
+}
+
+.li-item {
+   width: 100%;
+   height:20%;
+   
+   color: white;
+   font-size: 4.0rem;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.white {
+    background-color: white;
+    color: orangered;
+}
+
+.p-info {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 
 
+.section-four {
+    width: 100%;
+    height: 250px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
+.section-five {
+    width: 100%;
+    height: 600px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.div-desc-five {
+    width: 50%;
+    height: 100%;
+  padding: 0;
+margin: 0;
+    background-color: orangered;
+   
+}
+
+.div-desc-five-r {
+    width: 50%;
+    height: 100%;
+  padding: 0;
+margin: 0;
+    background-color: whitesmoke;
+   
+}
 
 
 
