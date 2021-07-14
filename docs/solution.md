@@ -5,7 +5,17 @@
 
 * Para quem precisa de informações úteis e preliminares para consultar viabilidade do que está sendo planejado.
 
-* Para saber as bases de uma edificação sustentável, econômica, funcional e do carácter estético da construção.
+* Para entender as bases de uma edificação sustentável, econômica e funcional 
+
+* Para entender o que forma o carácter estético da construção.
+
+## Outras soluções
+
+* Democratizar o acesso a projetos arquitetônicos
+
+* Redução de riscos em programas de financiamentos imobiliários
+
+* Facillitar aprovação de crédido para financiamentos imobiliário
 
 ## Benefícios
 
