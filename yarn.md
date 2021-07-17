@@ -5,8 +5,8 @@
 Commands | Flags | Description
 ---|---|---
 Yarn add <package_name> | --- | Baixa e adiciona um ou mais pacote(_package_) como dependência a aplicação
---- | -D | Adiciona o(s) pacote(s) como um dependência de desenvolvimento
-Yarn install | 
+... | -D | Adiciona o(s) pacote(s) como um dependência de desenvolvimento
+Yarn install | ... | Instala todas as dependências necessárias para funcionamento do app
 
 
 
@@ -16,8 +16,8 @@ Yarn install |
 Commands | Flags | Description
  ---|---|---
 npm install | | Baixa e adiciona um ou mais pacote(_package_) como dependência a aplicação
- | -D | Adiciona o(s) pacote(s) como um dependência de desenvolvimento
- | --global | 
+...| -D |  Adiciona o(s) pacote(s) como dependência de desenvolvimento 
+...| --global | Adiciona o(s) pacote(s) globalmente (na raíz do sistema)
 
 ### Expo-cli 
 
@@ -31,7 +31,7 @@ expo start <app_name>| | Abre um projeto existente (Adicione o superset TypeScri
 
 Commands | Flags | Description
 ---|---|---
-git status | | 
-git add <app_name>| | 
-git push | |
-git pull | |
+git status | ... | Lista todos os arquivos fora da stage-aria
+git add <app_name>| | Adiciona arquivo(s) na stage-aria
+git push | | Envia ou atualiza arquivos para o repositório remoto no GitHub
+git pull | | Trás para o repositório local atualizações feitas no repositório remoto no GitHub
