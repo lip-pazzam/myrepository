@@ -24,7 +24,7 @@ npm install | | Baixa e adiciona um ou mais pacote(_package_) como dependência 
 Commands | Flags | Description
 ---|---|---
 expo init <app_name>|  | Inicia um novo projeto utilizando expo
-expo start <app_name>| | Adiciona o superset TypeScript ao projeto (antes crie uma pasta chamada [tsconfig.json] na raiz do projeto)
+expo start <app_name>| | Abre um projeto existente (Adicione o superset TypeScript ao projeto criando uma pasta chamada [tsconfig.json] na raiz do projeto)
 
 
 ### Git
