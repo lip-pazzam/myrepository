@@ -4,12 +4,16 @@
 
 Commands | Flags | Description
 ---|---|---
-Yarn add <package_name> | --- | Baixa e adiciona um ou mais pacote(_package_) como dependência a aplicação
-... | -D | Adiciona o(s) pacote(s) como um dependência de desenvolvimento
-Yarn install | ... | Instala todas as dependências necessárias para funcionamento do app
-
-
-
+Yarn add <package_name> | | Baixa e adiciona um ou mais pacote(_package_) como dependência a aplicação
+... | --dev | Adiciona o(s) pacote(s) como um dependência de desenvolvimento
+Yarn install |  | Instala todas as dependências necessárias para funcionamento do app
+...| --global | Adiciona o(s) pacote(s) globalmente (na raíz do sistema)
+--mutex network | |
+--mutex network:30330 | |
+yarn --cwd <command> | |
+yarn add <package...> | |
+yarn add <package...> [--dev/-D] | |
+yarn add <package...> [--peer/-P] | |
 
 ### Npm 
 
@@ -31,7 +35,7 @@ expo start <app_name>| | Abre um projeto existente (Adicione o superset TypeScri
 
 Commands | Flags | Description
 ---|---|---
-git status | ... | Lista todos os arquivos fora da stage-aria
+git status | | Lista todos os arquivos fora da stage-aria
 git add <app_name>| | Adiciona arquivo(s) na stage-aria
 git push | | Envia ou atualiza arquivos para o repositório remoto no GitHub
 git pull | | Trás para o repositório local atualizações feitas no repositório remoto no GitHub
